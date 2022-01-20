@@ -15,7 +15,7 @@ db.authenticate()
     .catch( error => console.log(error));
 
 //definir el puerto
-// const port = process.env.PORT || 4000; 
+const port = process.env.PORT || 4000; 
 
 
 //habilitar pug
@@ -42,7 +42,7 @@ app.use('/', router);
 //**puerto y host para la app */
 
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT ||  3000;
+// const port = process.env.PORT ||  3000;
 
 
 
